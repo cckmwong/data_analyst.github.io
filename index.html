@@ -66,7 +66,7 @@
 									<ul class="feature-icons">
 										<li class="icon solid fa-database">Data Analytics Tools </br>(Microsoft Power BI, Excel)</li>
 										<li class="icon solid fa-code">Programming (SQL, Python, DAX)</li>
-										<li class="icon solid fa-chart-pie">Statistics (e.g. Time Series Analysis, Regression Analysis)</li>
+										<li class="icon solid fa-chart-pie">Statistical Analysis (e.g. Time Series Analysis, Regression Analysis)</li>
 										<li class="icon solid fa-chart-line">Financial Analysis</li>
 									</ul>
 								</div>
@@ -76,7 +76,7 @@
 							<section id="three">
 								<div class="container">
 									<h3>Projects</h3>
-									<p align = 'justify'>The data analystics projects are comprised primarily of two sections — financial analysis and demographic analysis. The first part concerns about financial analysis of global retail stocks, in addition to time series analysis of Tesco (TSCO. L) share prices.
+									<p align = 'justify'>The data analystics projects are comprised primarily of two sections — <a href="#FA">financial analysis</a> and <a href="#DA">demographic analysis</a>. The first part concerns about financial analysis of global retail stocks, in addition to time series analysis of Tesco (TSCO. L) share prices.
 										The second part is about demographic analysis for each local authority in England. In particular, there is correlation and regression analysis on the Key Stage 4 results which involves model development and evaulation.
 										Likewise, academic performance of schools is presented in Excel dashboard as an alternative way of data visualization.
 									</p>
@@ -84,7 +84,7 @@
 										<article>
 											<a href="https://github.com/cckmwong/portfolio/blob/main/codes/Time%20Series%20Model/ARIMA_Tesco.ipynb" target="_blank" class="image"><img src="images/ARIMA_Tesco.png" alt="" /></a>
 											<div class="inner">
-												<h4>Time Series Analysis (ARIMA model)</h4>
+												<h4><a name="FA">Time Series Analysis (ARIMA model)</a></h4>
 												<p align = 'justify'>Python scripts are used to analyze and forecast the stock prices of TESCO (TSCO. L) using Autoregressive Integrated Moving Average (ARIMA) model, which is an integral part of technical analysis of stock.</br> 
 													<br>Main steps are as follows: 1) Download TESCO stock prices from Yahoo Finance. 2) Check for randomness in lag plot.
 													3) Test stationarity (Augmented Dickey-Fuller Test) and carry out data transformation by differencing. 4) Interpret lag orders from Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots.
@@ -115,8 +115,8 @@
 										<article>
 											<a href="https://github.com/cckmwong/portfolio/blob/main/codes/Data%20Extraction/school_performance.sql" target="_blank" class="image"><img src="images/data_exploration.png" alt="" /></a>
 											<div class="inner">
-												<h4>Data Extraction with SQL</h4>
-												<p align = 'justify'> Here is data extraction of .csv files downloaded from the GOV.UK website, which are three separate tables concerning individual school information, Key Stage 2 (KS2) results and Key Stage 4 (KS4) results of the schools. Data cleaning processes include i) dropping unrelated rows, ii) merging tables, iii) handling null values, iv) checking duplicates, etc. 
+												<h4><a name="DA">Data Extraction with SQL</a></h4>
+												<p align = 'justify'> Here comes the start of the second part of my analysis. Firstly, data is extrcated from the .csv files downloaded from the GOV.UK website, which are three separate tables concerning individual school information, Key Stage 2 (KS2) results and Key Stage 4 (KS4) results of the schools. Data cleaning processes include i) dropping unrelated rows, ii) merging tables, iii) handling null values, iv) checking duplicates, etc. 
 													<br><br>After executing the SQL code in Microsoft SQL Server, a new and cleaned table is generated and is ready for use in subsequent data analysis — <i>Demographic Analysis </i>and <i>School Performance Dashbord </i>.<br><br>
 												<b style="font-size: 0.9em">#SQL	#Microsoft SQL Sever</b> 
 												</p><ul class="actions special">
